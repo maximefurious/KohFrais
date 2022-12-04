@@ -1,0 +1,144 @@
+:root {
+    --color-light: #f5efe6;
+    --color-creme: #D5CABC;
+    --color-rose: #E8D5CC;
+    --color-light-brown: #BDA18A;
+    --color-brown: #C49D83;
+}
+
+body {
+    background-color: var(--color-light);
+    color: var(--color-brown);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+}
+
+nav {
+    background-color: var(--color-brown);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0 0 10px var(--color-brown);
+}
+
+.dropdown-menu {
+    background-color: var(--color-brown);
+}
+
+nav img {
+    width: 100px;    
+}
+
+
+#carrousel_container {
+    width: 80%;
+    background-color: var(--color-rose);
+    border: 1px solid var(--color-brown);
+    box-shadow: 0 0 10px var(--color-brown);
+}
+
+.carousel-inner img {
+    background: linear-gradient(356deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 0.8130602582830007) 46%, rgba(255, 255, 255, 1) 100%);
+}
+
+article {
+    background-color: var(--color-rose);
+    border: 1px solid var(--color-brown);
+    box-shadow: 0 0 10px var(--color-brown);
+    transition: all 0.5s ease;
+}
+
+article p::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--color-brown);
+    transition: all 0.5s ease;
+}
+
+.img_container {
+    width: 100px;
+}
+
+.img_container img {
+    width: fit-content;
+}
+
+.transition:hover {
+    background-color: var(--color-brown);
+    color: var(--color-light);
+    transition: all 0.5s ease;
+}
+
+.transition:hover p::first-letter {
+    color: var(--color-light);
+    transition: all 0.5s ease;
+}
+
+footer {
+    background-color: var(--color-brown);
+    color: var(--color-light);
+}
+
+footer img {
+    width: 40px;
+}
+
+footer a {
+    color: var(--color-light);
+    transition: all 0.5s ease;
+}
+
+footer a:hover {
+    color: black;
+    transition: all 0.5s ease;
+}
+
+#products article img {
+    width: 200px;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 10px var(--color-brown);
+}
+
+#products article img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+.card {
+    box-shadow: 0 0 10px var(--color-brown);
+    transition: all 0.5s ease;
+}
+
+.card:hover {
+    background-color: var(--color-rose);
+    transition: all 0.5s ease;
+}
+
+.card img {
+    float: left;
+    width: 30%;
+    padding: 0 1em 1em 0;       
+}
+
+.card p::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--color-brown);
+    transition: all 0.5s ease;
+}
+
+button {
+    background-color: var(--color-brown);
+    color: var(--color-light);
+    border: 1px solid var(--color-brown);
+    box-shadow: 0 0 10px var(--color-brown);
+    transition: all 0.5s ease;
+}
+
+button:hover {
+    background-color: var(--color-light);
+    color: var(--color-brown);
+    transition: all 0.5s ease;
+}
