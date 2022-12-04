@@ -2,6 +2,10 @@
 
 <p id="description">KohFrais est un site vitrine de glace réaliser en équipe de quatre dans le cadre d'une évaluation à l'IUT. Ce projet a été réalisé en plusieurs étapes la première étant la phase de synthèse des besoins clients d'après une interview ensuite est venu la phase de conception de la maquette puis de l'arborescence et enfin est venu la partie développement en équipe du site web.</p>
 
+<h2>🚀 Demo</h2>
+
+[https://koh-frais.vercel.app/](https://koh-frais.vercel.app/)
+
 <h2>🛠️ Installation Steps:</h2>
 
 <p>1. Clone Project</p>
